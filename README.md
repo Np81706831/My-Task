@@ -10,3 +10,10 @@ I am a Front-End Developer Intern who is passionate about web development and cr
 - Build responsive and user-friendly websites.
 - Gain real-world experience through projects.
 - Become a professional Front-End Developer.
+
+## Skills
+- HTML5
+- CSS3
+- JavaScript (Basic)
+- Git & GitHub
+- Responsive Design
