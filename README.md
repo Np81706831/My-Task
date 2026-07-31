@@ -22,3 +22,7 @@ I am a Front-End Developer Intern who is passionate about web development and cr
 - JavaScript
 - Git & GitHub
 - Building Real Projects
+
+## Contact
+- GitHub: https://github.com/Np81706831
+- Email: nargespoorhashemi2@gmail.com
