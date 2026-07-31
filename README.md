@@ -17,3 +17,8 @@ I am a Front-End Developer Intern who is passionate about web development and cr
 - JavaScript (Basic)
 - Git & GitHub
 - Responsive Design
+
+## Current Learning
+- JavaScript
+- Git & GitHub
+- Building Real Projects
