@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login-Form</title>
     <style>
-         @font-face {
+        @font-face {
         font-family: "Arad";
         src: url(./font/AradVF.woff2)format("woff2");}
         body{
@@ -14,7 +14,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-             background-image: url(./Photos/back-color.jpg);
+            background-image: url(./Photos/back-color.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             
@@ -30,13 +30,13 @@
     </style>
 </head>
 <body>
-    <form>
+    <form action="#" method="post">
         <fieldset class="fieldset">
             <legend>اطلاعات کاربری</legend>
             <label>نام : </label>
-            <input type="text" class="input" autofocus required/>
+            <input type="text" class="input" autofocus required />
             <label>نام خانوادگی : </label>
-            <input type="text"  required class="input"/>
+            <input type="text" class="input" required />
             <label>سن : </label>
             <input type="number" required class="input"/>
         </fieldset>
@@ -77,20 +77,21 @@
             <label>Laravel</label>
             <input type="checkbox"  class="input" /><br>
             <h4>توضیحات :</h4>
-            <textarea></textarea>
+            <textarea style="width: 30%;"></textarea>
         </fieldset>
         <fieldset>
             <legend>راه های ارتباطی با شما</legend>
-            <label>Phone number :</label>
-            <input type="tel" pattern="[0,9]{11}" class="input" />  <!--correct it--> 
+            <label for="tel">Phone number :</label>
+            <input type="tel" id="tel" class="input" required/> 
             <label>Email :</label>
-            <input type="email" class="input" />
+            <input type="email" class="input" required />
             <label>Linkdin :</label>
             <input type="url" class="input" />
             <label>GitHub :</label>
-            <input type="url" class="input" />
-
-        </fieldset>
+            <input type="url" class="input" />-
+        </fieldset><br>
+        <input type="submit" class="input"/>
+        <input type="reset" class="input"/>
     </form>
 </body>
 </html>
