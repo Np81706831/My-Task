@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Form</title>
+    <style>
+         @font-face {
+        font-family: "Arad";
+        src: url(./font/AradVF.woff2)format("woff2");}
+        body{
+            direction: rtl;
+            font-family: "Arad";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .fieldset{
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset class="fieldset">
+            <legend>اطلاعات کاربری</legend>
+            <label>نام : </label>
+            <input type="text" required class="input"/>
+            <label>نام خانوادگی : </label>
+            <input type="text"  required class="input"/>
+            <label>سن : </label>
+            <input type="number" required class="input"/>
+        </fieldset>
+         <fieldset class="fieldset">
+            <legend>اطلاعات تحصیلی</legend>
+            <select style="font-family: 'Arad';">
+                <option>دیپلم</option>
+                <option> کاردانی</option>
+                <option>کارشناسی</option>
+                <option>کارشناسی ارشد</option>
+                <option>دکترا</option>
+                <option>سایر...</option>
+            </select>
+            <label>نام دانشگاه: </label>
+            <input type="text" />
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend>جنسیت :</legend>
+            <label>زن</label>
+            <input type="radio" name="gender"/>
+            <label>مرد</label>
+            <input type="radio" name="gender" />
+        </fieldset>
+    </form>
+</body>
+</html>
