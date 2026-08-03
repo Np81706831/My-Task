@@ -24,21 +24,75 @@
             text-decoration: none;
             margin-left: 30px;
         }
+        .pic1{
+            float: left;
+            border-radius: 600px; /* correct this later*/
+        }
+        .table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 15%;
+            
+        }
     </style>
 </head>
 <body>
     <header class="header">
         <img src="./Photos/my-logo1.png" width="110px"/>
+        <img src="./Photos/cube back.jpg" width="140px" class="pic1" />
         <nav class="nav">
-            <a class="link" href="#">صفحه اصلی</a>
-            <a class="link" href="#">درباره من</a>
-            <a class="link" href="#">نمونه کارها</a>
-            <a class="link" href="#">ارتباط</a>
+            <a class="link" href="#">Home Page </a>
+            <a class="link" href="#">About Me </a>
+            <a class="link" href="#"> Project</a>
+            <a class="link" href="#">Contact</a>
         </nav>
     </header>
     <main>
         <section>
-            
+            <h1> About me</h1>
+            <p>Hello! My name is Narges. I am a computer student who is learning Front-End Development. I enjoy building clean and user-friendly websites while improving my programming skills. I am currently focusing on HTML, CSS, JavaScript, Git, and GitHub through personal projects and internship training.</p>
+        </section>
+        <section>
+            <h2>My Goals :</h2>
+            <ul>
+                <!--  -->
+                <li>Improve my Front-End Development skills.</li>
+                <li>Build responsive and accessible websites.</li>
+                <li>Learn modern JavaScript.</li>
+                <li>Work on real-world projects.</li>
+                <li>Become a professional Front-End Developer.</li>
+            </ul>
+        </section>
+        <section>
+            <section>
+                <h2>skills</h2>
+                <table class="table">
+                    <tr class="table">
+                        <th>skill</th>
+                        <th>skill level</th>
+                    </tr>
+                    <tr class="table">
+                        <td>HTML</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr class="table">
+                        <td>CSS</td>
+                        <td>Advanced</td>
+                    </tr>
+                     <tr class="table">
+                        <td>Java Script</td>
+                        <td>Intermediate</td>
+                    </tr>
+                     <tr class="table">
+                        <td>Git</td>
+                        <td>Intermediate</td>
+                    </tr>
+                     <tr class="table">
+                        <td>GitHub</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </table>
+            </section>
         </section>
     </main>
 </body>
