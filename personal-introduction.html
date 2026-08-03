@@ -12,9 +12,12 @@
             body{
                 direction: rtl;
                 font-family: "Arad";
+                margin: 30px;
+                background-image: url(./Photos/back-color.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
             }
             .header{
-                background-color: lightblue;
                 width: 100%;
             }
             .nav{
@@ -26,29 +29,38 @@
             }
             .pic1{
                 float: left;
-                border-radius: 600px; /* correct this later*/
+                border-radius: 600px;
+                margin-top: 1px;
+            }
+            .text{
+                float: left;
+                margin-bottom: 10px;
+            }
+            .section{
+                margin-bottom: 10px;
             }
             .table{
                 border: 1px solid black;
                 border-collapse: collapse;
                 width: 15%;
-                
             }
         </style>
     </head>
     <body>
         <header class="header">
-            <img src="./Photos/my-logo1.png" width="110px" alt="Site-Logo"/>
-            <img src="./Photos/cube back.jpg" width="140px" class="pic1" alt="My-Profile" />
+            <img src="./Photos/my-logo1.png" width="120" alt="Site-Logo"/>
+            <img src="./Photos/flower.jpg" width="140" class="pic1" alt="My-Profile" />
+            <h3 class="text">Narges Poorhashemi </h3><br/>
+            <h4 class="text"> Front-End Intern</h4><br/>
             <nav class="nav">
                 <a class="link" href="#">Home Page </a>
                 <a class="link" href="#">About Me </a>
                 <a class="link" href="#"> Project</a>
                 <a class="link" href="#">Contact</a>
-            </nav>
+            </nav><hr>
         </header>
         <main>
-            <section>
+            <section class="section">
                 <h1> About me</h1>
                 <p>Hello! My name is Narges. I am a computer student who is learning Front-End Development. I enjoy building clean and user-friendly websites while improving my programming skills. I am currently focusing on HTML, CSS, JavaScript, Git, and GitHub through personal projects and internship training.</p>
             </section>
@@ -108,13 +120,44 @@
                 <h2>Projects</h2>
                 <ol>
                     <li>
-                        <article>
+                        <article  style="border: 1px solid black; border-radius: 5px; width: 50%; margin-bottom: 10px;">
                             <h3 style="display: inline;">sample-article:</h3>
-                            <a href="https://github.com/Np81706831/My-Task.git" target="_blank">Click me</a>
+                            <a href="https://github.com/Np81706831/My-Task.git" target="_blank">Click here</a>
+                        </article>
+                    </li>
+                    <li>
+                        <article style="border: 1px solid black; border-radius: 5px; width: 50%;">
+                            <h3 style="display: inline;">form :</h3>
+                            <a href="https://github.com/Np81706831/My-Task.git" target="_blank">Click here</a>
                         </article>
                     </li>
                 </ol>
             </section>
+            <aside>
+                <blockquote>"Every expert was once a beginner."</blockquote>
+            </aside>
+            <section>
+                <form>
+                    <fieldset>
+                        <legend> Contact form</legend>
+                        <label> your Name : </label><br>
+                        <input type="text"  required/><br>
+                        <label> your Email :</label><br>
+                        <input type="email"  required/><br>
+                        <label>subject : </label><br>
+                        <input type="text" required/><br>
+                        <label>your Message : </label><br>
+                        <textarea></textarea><br>
+                    </fieldset>
+                </form>
+            </section>
+            <footer>
+                <h4>N.P - Agust 2026</h4>
+                <h4></h4>
+                <h4>my Email: nargespoorhashemi2@gmail.com</h4>
+                <h4>my Github : https://github.com/Np81706831/My-Task.git</h4>
+                <h4 style="color: darkcyan;">Thank you for visiting my portfolio. ❤️</h4>
+            </footer>
         </main>
     </body>
 </html>
