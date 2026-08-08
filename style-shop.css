@@ -1,0 +1,103 @@
+@font-face {
+        font-family: "Arad";
+        src: url(./font/AradVF.woff2)format("woff2");
+        }
+body{
+    font-family: "Arad";
+    direction: rtl;
+    font-size: xx-large;
+    margin: 20px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+.header{
+   /* background-color: lightblue; */
+    width: 300vw;
+}
+.logo{
+    /*margin-right: 1.5rem;*/
+    width:70vw;
+}
+.search-icon{
+    top:7rem;
+    right:20rem;
+    position: absolute;
+}
+.search-box{
+    background-color: lightgray;
+    top:8rem;
+    right:26rem;
+    position: absolute;
+    width:120vw;
+    height: 8vh;
+    border-radius: 8px;
+}
+.profile{
+    float: left;
+    top: -16rem;
+    left: 8rem;
+    position: relative;
+}
+.bag-shop{
+    float: left;
+    top: -16rem;
+    left:-1rem;
+    position: relative;
+}
+.image-header{
+    margin-right: 1rem;
+}
+.navbar{
+}
+.navbar-link{
+    text-decoration: none;
+    top:-2rem;
+    position: relative;
+    border-left: 1px solid gray;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.content1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    /*position: relative;*/
+}
+.title{
+    font-size:larger;
+}
+.left-text{
+    font-size: larger;
+    top:40px;
+    right:800px;
+    left: 200px;
+    position: relative;
+}
+.product{
+    border: 1px solid gray;
+    width: 80vw;
+    height: 100vh;
+    border-radius: 7px;
+    /*padding-right: 35px;
+    padding-top: 25px;*/
+}
+.content-picture{
+    width:80vw;
+    height:50vh ;
+}
+.add-to-list{
+    background-color: lightcyan;
+    font-family: "Arad";
+    font-size: large;
+    margin-top: 8rem;
+    margin-right:1.4rem;
+    width: 70vw;
+    height: 10vh;
+    border-radius: 7px;
+}
+/*.favorite{
+    width: 12vw;
+    height: 8vh;
+}*/
