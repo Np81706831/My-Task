@@ -4,113 +4,198 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Story_Shelf</title>
-        <link href="./Photos/logo-shop.png" rel="icon" type="image/x-icon"  />
+        <link href="./icons/new-logo.png" rel="icon" type="image/x-icon"  />
         <link href="./style-shop.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <header class="header">
-            <img src="./Photos/logo-shop.png" width="190vw" class="logo" alt="لوگوی سایت"/>
-            <img src="./icons/search.png" width="80vw" class="search-icon"/>
-            <input type="search" class="search-box" placeholder="جستجوی کتاب یا نویسنده"/><br>
-            <img src="./icons/profile-image.png" width="50vw" class="profile"/>
-            <img src="./icons/bag shop.png" width="50vw" class="bag-shop" />
+            <img src="./icons/new-logo.png" width="190vw" class="logo" alt="لوگوی سایت"/>
+            <img src="./icons/search.png" class="search-icon"/>
+            <input type="search" class="search-box" placeholder="جستجوی کتاب یا نویسنده" style="font-family: 'Arad';"/><br>
+            <a href="./login.html"><img src="./icons/new-profile.png" class="profile"/></a>
+            <img src="./icons/new-bag-shop.png" class="bag-shop"/>
+            <img src="./icons/group.png" class="navbar-group"/>
             <nav class="navbar">
-                <img src="./icons/group.png" width="70vw" /> 
                 <a href="#" class="navbar-link"> دسته بندی محصولات </a>
-                <a href="#" class="navbar-link"> درباره ی ما  </a>
+                <a href="./Customer-reviews.html" class="navbar-link">نظرات مشتری </a>
+                <a href="about-us.html" class="navbar-link"> درباره ی ما  </a>
                 <a href="#" class="navbar-link"> ارتباط با ما   </a>
             </nav>
         </header><br>
+
         <main>
             <section>
-             <img src="./Photos/header-image.jpg" width="1070vw" class="image-header"/>
+             <img src="./Photos/header-image.jpg" class="image-header"/>
             </section><br>
             <h1 class="title">پر فروش ترین</h1>
-            <a href="#"><h2 class="left-text">نمایش همه</h2></a>
-            <section style="background-color: lightcyan; width:295vw; height: 120vh;" class="sections">
+            <a href="#" style="text-decoration: none;"><h2 class="left-text">نمایش همه</h2></a>
+            <section class="sections">
                 <article class="product">
-                    <img src="./Photos/book0.jpg" class="content-picture" />
-                    <p>hihihrjvbejkbvjki</p>
-                    <button class="add-to-list">افزودن به سبد خرید</button>
-                    <!--<img src="./Photos/favorite.png" class="favorite"/>-->
-                </article>
-                <article class="product">
-                    <img src="./Photos/book1.jpg" class="content-picture" />
-                    <p>iorvhirvnhirvn</p>
+                    <img src="./Photos/bok.jpg" class="content-picture" />
+                    <p class="book-title">کتاب داستان دو شهر اثر چارلز دیکنز </p>
+                    <p class="price">600,000 تومان</p>
                     <button class="add-to-list">افزودن به سبد خرید</button>
                 </article>
                 <article class="product">
-                    <img src="./Photos/book2.jpg" class="content-picture" />
-                    <p>irnvhionoirv</p>
+                    <img src="./Photos/boookjpg.jpg" class="content-picture" />
+                    <p class="book-title"> کتاب شب های روشن اثر داستایسفسکی</p>
+                    <p class="price">600,000 تومان</p>
                     <button class="add-to-list">افزودن به سبد خرید</button>
                 </article>
+                <article class="product">
+                    <img src="./Photos/book0.png" class="content-picture" />
+                    <p class="book-title">کتاب کتابخانه نیمه شب اثر مت هیگ</p>
+                    <p class="price">600,000 تومان</p>
+                    <button class="add-to-list">افزودن به سبد خرید</button>
+                </article>
+                <article class="product">
+                    <img src="./Photos/bok.jpg" class="content-picture" />
+                    <p class="book-title">کتاب داستان دو شهر اثر چارلز دیکنز </p>
+                    <p class="price">600,000 تومان</p>
+                    <button class="add-to-list">افزودن به سبد خرید</button>
+                </article>
+                <article class="product">
+                    <img src="./Photos/boookjpg.jpg" class="content-picture" />
+                    <p class="book-title"> کتاب شب های روشن اثر داستایسفسکی</p>
+                    <p class="price">600,000 تومان</p>
+                    <button class="add-to-list">افزودن به سبد خرید</button>
+                </article>
+                <article class="product">
+                    <img src="./Photos/book0.png" class="content-picture" />
+                    <p class="book-title">کتاب کتابخانه نیمه شب اثر مت هیگ</p>
+                    <p class="price">600,000 تومان</p>
+                    <button class="add-to-list">افزودن به سبد خرید</button>
+                </article>
+                
             </section><br>
 
             <h1 class="title">جدید ترین </h1>
-            <a href="#"><h2 class="left-text">نمایش همه</h2></a>
-            <section style="background-color:rgb(245, 212, 217); width:295vw; height: 120vh;" class="sections">
+            <a href="#" style="text-decoration: none;"><h2 class="left-text">نمایش همه</h2></a>
+            <section class="sections">
                 <article class="product">
-                    <img src="./Photos/book3.jpg" class="content-picture" />
-                    <p>hihihrjvbejkbvjki</p>
-                    <button class="add-to-list">افزودن به سبد خرید</button>
-                    <!--<img src="./Photos/favorite.png" class="favorite"/>-->
-                </article>
-                <article class="product">
-                    <img src="./Photos/book4.jpg" class="content-picture" />
-                    <p>iorvhirvnhirvn</p>
+                    <img src="./Photos/book6.png" class="content-picture" />
+                    <p  class="book-title">کتاب 48 قانون قدرت اثر  رابرت گرین</p>
+                    <p class="price">600,000 تومان</p>
                     <button class="add-to-list">افزودن به سبد خرید</button>
                 </article>
                 <article class="product">
-                    <img src="./Photos/book5.jpg" class="content-picture" />
-                    <p>irnvhionoirv</p>
+                    <img src="./Photos/book2.png" class="content-picture" />
+                    <p class="book-title">کتاب هر دو در نهایت میمیرند اثر آدور هیلورا</p>
+                    <p class="price">600,000 تومان</p>
                     <button class="add-to-list">افزودن به سبد خرید</button>
+                </article>
+                <article class="product">
+                    <img src="./Photos/book.jpg" class="content-picture" />
+                    <p class="book-title">کتاب بنویس تا اتفاق بیوفتداثرهنریک کلاوسر</p>
+                    <p class="price">600,000 تومان</p>
+                    <button class="add-to-list">افزودن به سبد خرید</button>
+                </article>
+                <article class="product">
+                    <img src="./Photos/book6.png" class="content-picture" />
+                    <p  class="book-title">کتاب 48 قانون قدرت اثر  رابرت گرین</p>
+                    <p class="price">600,000 تومان</p>
+                    <button class="add-to-list">افزودن به سبد خرید</button>
+                </article>
+                <article class="product">
+                    <img src="./Photos/book2.png" class="content-picture" />
+                    <p class="book-title">کتاب هر دو در نهایت میمیرند اثر آدور هیلورا</p>
+                    <p class="price">600,000 تومان</p>
+                    <button class="add-to-list">افزودن به سبد خرید</button>
+                </article>
+                <article class="product">
+                    <img src="./Photos/book.jpg" class="content-picture" />
+                    <p class="book-title">کتاب بنویس تا اتفاق بیوفتداثرهنریک کلاوسر</p>
+                    <p class="price">600,000 تومان</p>
+                    <button class="add-to-list">افزودن به سبد خرید</button>
+                </article>
+            </section><br/><br/>
+            <h1 class="title"> نویسندگان برتر </h1>
+            <a href="#" style="text-decoration: none;"><h2 class="left-text2">نمایش همه</h2></a>
+            <section class="section2">
+                <article class="writers">
+                    <img src="./Photos/writer1.jpg" class="content-picture2" />
+                    <a  class="this-writer"><p>میگل دو سروانتس</p></a>
+                </article>
+                <article class="writers">
+                    <img src="./Photos/writer2.jpg" class="content-picture2" />
+                    <a  class="this-writer"><p>فئودور داستایوفسکی</p></a>
+                </article>
+                <article class="writers">
+                    <img src="./Photos/writer3.jpg" class="content-picture2" />
+                    <a  class="this-writer"><p>جورج اورول</p></a>
+                </article>
+                <article class="writers">
+                    <img src="./Photos/writer4.jpg" class="content-picture2" />
+                    <a  class="this-writer"><p>میگل دو سروانتس</p></a>
+                </article>
+                <article class="writers">
+                    <img src="./Photos/writer5.jpg" class="content-picture2" />
+                    <a  class="this-writer"><p>فئودور داستایوفسکی</p></a>
+                </article>
+                <article class="writers">
+                    <img src="./Photos/writer3.jpg" class="content-picture2" />
+                    <a  class="this-writer"><p>جورج اورول</p></a>
                 </article>
             </section><br>
 
-             <h1 class="title"> نویسندگان برتر </h1>
-            <a href="#"><h2 class="left-text">نمایش همه</h2></a>
-            <section style="background-color:rgb(245, 212, 217); width:295vw; height: 120vh;" class="sections">
-                <article class="product">
-                    <img src="./Photos/book3.jpg" class="content-picture" />
-                    <p>hihihrjvbejkbvjki</p>
-                    <button class="add-to-list">افزودن به سبد خرید</button>
-                    <!--<img src="./Photos/favorite.png" class="favorite"/>-->
+            <h2 style="white-space: nowrap;" class="cta-title">کتاب‌خوانی را ویژه‌تر تجربه کن🌟</h2><br>
+            <section class="cta">
+                <b><h2 class="cta-title1">ویژه</h2></b>
+                <article class="main-cta">
+                    <span>✓</span>
+                    <span style="margin-bottom: 5rem;">10 درصد تخفیف روی همه ی محصولات</span><br>
+                    <span>✓</span>
+                    <span style="margin-bottom: 5rem;">ارسال رایگان</span><br>
+                    <span>✓</span>
+                    <span style="margin-bottom: 5rem;">پیشنهاد های شخصی </span><br>
+                    <a href="#" class="buy-Subscription1">خرید اشتراک</a>
                 </article>
-                <article class="product">
-                    <img src="./Photos/book4.jpg" class="content-picture" />
-                    <p>iorvhirvnhirvn</p>
-                    <button class="add-to-list">افزودن به سبد خرید</button>
-                </article>
-                <article class="product">
-                    <img src="./Photos/book5.jpg" class="content-picture" />
-                    <p>irnvhionoirv</p>
-                    <button class="add-to-list">افزودن به سبد خرید</button>
+                    <b><h2 class="cta-title2">VIP</h2></b>
+                <article class="main-cta2">
+                    <span>✓</span>
+                    <span style="margin-bottom: 5rem;">20 درصد تخفیف روی همه محصولات</span><br>
+                    <span>✓</span>
+                    <span style="margin-bottom: 5rem;">ارسال رایگان</span><br>
+                    <span>✓</span>
+                    <span style="margin-bottom: 5rem;">پیشنهاد های شخصی </span><br>
+                    <a href="#" class="buy-Subscription2">خرید اشتراک</a>
                 </article>
             </section><br><br>
 
             <footer class="footer">
                 <section class="first-row">
                     <div class="footer-item"><img src="./icons/poshtibani.png" alt="پشتیبانی 24 ساعته" class="image-footer"/>
-                    <h3 class="footer-text">پشتیبانی 24 ساعته</h3></div>
+                    <h3>پشتیبانی 24 ساعته</h3></div>
                     <div class="footer-item"><img src="./icons/zemanat.png" alt="ضمانت کالا"  class="image-footer" />
                     <h3> تضمین ضمانت کالا</h3></div>
                     <div class="footer-item"><img src="./icons/post.png" alt="ارسال سریع"  class="image-footer"/>
                     <h3>ارسال سریع</h3></div>
-                </section>
+                </section><br/>
+                <hr class="line"/>
+                <h3 class="footer-title">راهنمای خرید </h3>
+                <hr class="line"/>
                 <section class="second-row">
-                    <h3>راهنمای خرید </h3>
-                    <hr width="300vw" />
-                    <a href="#">نحوه ی ثبت سفارش</a>
-                    <a href="#">شیوه های پرداخت</a>
-                        <h3>تماس باما</h3>
-                        <hr width="300vw" />
-                        <h4>شماره تماس :</h4>
-                        <p>02133665588</p>
-                        <h4>ایمیل :</h4>
-                        <p>story-shelf@gmail.com</p>
+                    <a href="#" class="second-row-text">نحوه ی ثبت سفارش</a>
+                    <a href="#" class="second-row-text">شیوه های پرداخت</a>
+                    <a href="#" class="second-row-text">شیوه ارسال </a>
+                    <a href="#" class="second-row-text"> پیگیری سفارش </a>
                 </section>
+                <hr class="line"/>
+                <h3 class="footer-title">تماس با ما</h3>
+                <hr class="line"/>
                 <section class="third-row">
-                    <h4 style="font-size: larger;"></h4>
+                    <div>
+                    <img src="./icons/email.png" class="contact"/>
+                </div>
+                <div>
+                    <img src="./icons/telegram.png" class="contact"/>
+                </div>
+                <div>
+                    <img src="./icons/twitter.webp" class="contact"/>
+                </div>
+                <div>
+                    <img src="./icons/instagram.png" class="contact"/>
+                </div>
                 </section>
             </footer>
         </main>

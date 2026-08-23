@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تماس با ما</title>
+    <style>
+        @font-face{
+        font-family: "Arad";
+        src: url(./font/AradVF.woff2)format("woff2");}
+        body{
+            font-family: "Arad";
+            direction: rtl;
+            margin: 0.5rem;
+        }
+        .title{
+            font-size: medium;
+        }
+        .field{
+            font-family: "Arad";
+            border-radius: 4px;
+        }
+        .massage{
+            font-family: "Arad";
+            width: 70%;
+        }
+        .button{
+            font-family: "Arad";
+            border-radius: 5px;
+            margin-top: 2rem;
+            float: left;
+            margin-right: 5px;
+        }
+        /* ...................... this is for tablet mode .......................*/
+        @media (min-width:768px) {
+            body{
+            font-family: "Arad";
+            direction: rtl;
+            margin: 0.5rem;
+        }
+        .title{
+            font-size: medium;
+        }
+        .field{
+            font-family: "Arad";
+            border-radius: 4px;
+        }
+        .massage{
+            font-family: "Arad";
+            width: 70%;
+        }
+        .button{
+            font-family: "Arad";
+            border-radius: 5px;
+            margin-top: 2rem;
+            float: left;
+            margin-right: 5px;
+        }   
+        }
+        /*...................this is for desktop mode..............................*/
+        @media (min-width:1518px) {
+            body{
+            font-family: "Arad";
+            direction: rtl;
+            margin: 2rem;
+        }
+        .title{
+            font-size: medium;
+        }
+        .field{
+            font-family: "Arad";
+            border-radius: 4px;
+        }
+        .massage{
+            font-family: "Arad";
+            width: 70%;
+        }
+        .button{
+            font-family: "Arad";
+            border-radius: 5px;
+            margin-top: 2rem;
+            float: left;
+            margin-right: 5px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title" style="margin-bottom: 2rem;text-align:center;"> «حرفی هست؟ با ما در میون بذار» 💌📚 </h1>
+    <section>
+            <form>
+                <fieldset>
+                    <legend> ارتباط با ما</legend>
+                    <label>  نام و نام خانوادگی: </label>
+                    <input type="text" required class="field"/><br><br/>
+                    <label>ایمیل شما :</label>
+                    <input type="email" required  class="field"/><br/><br/>
+                    <label>موضوع : </label>
+                    <input type="text" required  class="field"/><br/><br/>
+                    <label>پیام شما :</label>
+                    <textarea class="massage"></textarea><br/><br/>
+                    <input type="submit" value="ارسال" class="button"/>
+                    <input type="reset" value="پاک کردن" class="button"/>
+                </fieldset>
+            </form>
+            <h2 class="title">آدرس ما :🏬</h2>
+            <p>میدان جهاد ، کوچه بهارستان پلاک 93</p>
+            <h2 class="title">شماره تماس :📱</h2>
+            <p>021336699</p>
+        </section>
+</body>
+</html>
