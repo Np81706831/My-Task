@@ -1,0 +1,23 @@
+ @font-face {
+        font-family: "Arad";
+        src: url(./font/AradVF.woff2)format("woff2");}
+        body{
+            direction: rtl;
+            font-family: "Arad";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(./photos/back-color.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 3rem;
+            
+        }
+        .fieldset{
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .input{
+        border-radius: 10px;
+   
+        }

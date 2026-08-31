@@ -1,206 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>درباره ی ما</title>
-    <style>
-        @font-face{
-        font-family: "Arad";
-        src: url(./font/AradVF.woff2)format("woff2");}
-        body{
-            font-family: "Arad";
-            direction: rtl;
-            margin: 2rem;
-            border: 1px dotted lightblue;
-        }
-        .title{
-            white-space: nowrap;
-            
-            font-size: large;
-        }
-        .paragraph{
-            line-height: 1.6;
-        }
-        .image{
-            width: 80%;
-            height: 50%;
-            margin-right: 1.4rem;
-            margin-bottom: 2rem;
-        }
-        .profile{
-            width: 90%;
-            height: 50%;
-            background-color: lightgray;
-            border-radius: 10px;
-            margin-right: 0.7rem;
-        }
-        .image-boss{
-            width: 80%;
-            height: 30%;
-            padding: 20px;
-            border-radius: 100px;
-        }
-        .profile-text{
-            padding: 10px;
-            text-align: center;
-        }
-        /*.......................this is for table mode.......................  */
-        @media (min-width:768px) {
-            body{
-            font-family: "Arad";
-            direction: rtl;
-            margin: 2rem;
-            border: 1px dotted lightblue;
-        }
-        .title{
-            white-space: nowrap;
-            font-size: large;
-        }
-        .paragraph{
-            line-height: 1.6;
-        }
-        .first-row-image{
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            gap: 2rem;/*
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 5rem;*/
-        }
-        .image{
-            
-            width: 90%;
-            height: 70%;
-            margin-right: 0.9rem;
-        }
-        .profile{
-            width: 90%;
-            height: 50%;
-            background-color: lightgray;
-            border-radius: 10px;
-            margin-right: 2.3rem;
-        }
-        .image-boss{
-            width: 80%;
-            height: 40%;
-            padding: 60px;
-            border-radius: 100px;
-        }
-        .profile-text{
-            padding: 5px;
-            text-align: center;
-        }
-        .second-row-image{
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            gap: 1rem;
-        }
-        .image2{
-            width: 90%;
-            height: 70%;
-            margin-right: 0.9rem;
-        }
-        }
-        /*.......................this is for desktop mode.......................  */
-        @media (min-width:1518px) {
-            body{
-            font-family: "Arad";
-            direction: rtl;
-            margin: 2rem;
-            border: 1px dotted lightblue;
-        }
-        .title{
-            white-space: nowrap;
-            font-size: large;
-             padding-right: 1rem;
-        }
-        .paragraph{
-            line-height: 1.6;
-            padding-right: 1.5rem;
-        }
-        .first-row-image{
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            gap: 2rem;/*
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 5rem;*/
-        }
-        .image{
-            
-            width: 90%;
-            height: 70%;
-            margin-right: 0.9rem;
-        }
-        .profile{
-            width: 90%;
-            height: 50%;
-            background-color: lightgray;
-            border-radius: 10px;
-            margin-right: 4.8rem;
-            margin-bottom: 10rem;
-        }
-        .image-boss{
-            width: 80%;
-            height: 40%;
-            padding-right: 140px;
-            border-radius: 100px;
-        }
-        .profile-text{
-            padding: 5px;
-            text-align: center;
-        }
-        .second-row-image{
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            gap: 1rem;
-        }
-        .image2{
-            width: 90%;
-            height: 70%;
-            margin-right: 0.9rem;
-        }
-        }
-    </style>
+    <link href="./css/style-about-us.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
     <section>
-        <h1 class="title">درباره ی story-shelf</h1>
+        <h1 class="main-title">درباره ی story-shelf</h1>
         <p class="paragraph">
             جاییه برای آدم‌هایی که با کتاب‌ها زندگی می‌کنن؛ جایی که هر کتاب می‌تونه شروع یک داستان تازه باشه. ما اینجا تلاش کردیم فضایی صمیمی و دوست‌داشتنی بسازیم تا پیدا کردن کتاب موردعلاقه‌تون، خودش بخشی از یک تجربه لذت‌بخش باشه.
 
             از انتخاب کتاب‌ها گرفته تا طراحی فضای مجموعه، همه چیز با این فکر شکل گرفته که کتاب فقط یک محصول نیست؛ بلکه می‌تونه همراه لحظه‌های خوب، یادگیری‌های تازه و خاطره‌های ماندگار ما باشه.
         </p>
         <section class="first-row-image">
-            <img src="./Photos/library2.jpg" class="image">
-            <img src="./Photos/library3.jpg" class="image">
+            <img src="./photos/library2.jpg" class="image">
+            <img src="./photos/library3.jpg" class="image">
         </section>
     </section>
     <section>
-        <h1 class="title">مدیر مجموعه : </h1>
+        <h2 class="title">مدیر مجموعه : </h2>
         <p class="paragraph">پشت هر مجموعه خوب، آدمی هست که با علاقه و پشتکار مسیرش رو ساخته. مدیر Story Shelf از همان ابتدا تلاش کرده این مجموعه را با هدف ایجاد فضایی متفاوت برای کتاب‌خوان‌ها شکل بدهد؛ فضایی که در آن علاوه بر خرید کتاب، ارتباطی صمیمی با دنیای کتاب‌ها شکل بگیرد.
         اینجا هر تصمیم با یک سؤال ساده شروع می‌شود: چطور می‌توانیم تجربه بهتری برای کتاب‌خوان‌ها بسازیم؟</p>
         <div class="profile">
-            <img src="./Photos/boss.jpg" class="image-boss"/>
+            <img src="./photos/boss.jpg" class="image-boss"/>
             <p class="profile-text">شیما گنجی </p>
             <p class="profile-text"> مدیر مجموعه استوری شلف</p>
         </div>
     </section>
     <section>
-        <h1 class="title">جایی برای کشف داستان های تازه</h1>
+        <h2 class="title">جایی برای کشف داستان های تازه</h2>
         <p class="paragraph">هر گوشه از Story Shelf با عشق به کتاب و کتاب‌خوانی شکل گرفته است. دوست داشتیم فضایی داشته باشیم که وقتی واردش می‌شوید، فقط با چند قفسه کتاب روبه‌رو نشوید؛ بلکه حس کنید وارد دنیایی از داستان‌ها و تجربه‌های تازه شده‌اید.
         گاهی فقط کافی است بین قفسه‌ها قدم بزنید؛ شاید همان کتابی که مدت‌ها دنبالش بودید، درست جلوی چشمتان باشد.</p>
         <div class="second-row-image">
-            <img src="./Photos/team-work1.jpg"  class="image2"/>
-            <img src="./Photos/team-work2.jpg"  class="image2"/>
-            <img src="./Photos/team-work3.jpg"  class="image2"/>
+            <img src="./photos/team-work1.jpg"  class="image2"/>
+            <img src="./photos/team-work2.jpg"  class="image2"/>
+            <img src="./photos/team-work3.jpg"  class="image2"/>
         </div>
     </section>
     <section>
-        <h1 class="title">خوشحالیم که با شما همراه هستیم</h1>
+        <h2 class="title">خوشحالیم که با شما همراه هستیم</h2>
         <p class="paragraph">Story Shelf برای ما فقط یک کتاب‌فروشی نیست؛ مجموعه‌ای است که با علاقه به کتاب‌ها و احترام به کتاب‌خوان‌ها ساخته شده.
         ممنونیم که بخشی از داستان Story Shelf هستید. امیدواریم هر بار که به ما سر می‌زنید، با یک کتاب خوب و یک حس خوب از اینجا برگردید. 📚</p>
     </section>

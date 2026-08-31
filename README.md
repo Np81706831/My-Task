@@ -1,5 +1,5 @@
 # my practice:
-# 👋 Hi, I'm Narges Poorhashemi.
+## 👋 Hi, I'm Narges Poorhashemi.
 
 ## About Me
 I am a Front-End Developer Intern who is passionate about web development and creating modern, user-friendly websites. I am currently learning HTML, CSS, JavaScript, and Git while improving my problem-solving skills through real-world projects.
@@ -27,4 +27,4 @@ I am a Front-End Developer Intern who is passionate about web development and cr
 - GitHub: https://github.com/Np81706831
 - Email: nargespoorhashemi2@gmail.com
 
-# thanks for readding.🌹🙏 
+## thanks for readding.🌹🙏 

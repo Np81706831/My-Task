@@ -1,0 +1,166 @@
+@font-face{
+            font-family: "Arad";
+            src: url(./font/AradVF.woff2)format("woff2");}
+        body{
+            font-family: "Arad";
+            background-image: url(./photos/back-color.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            direction: rtl;        }
+        .logo
+        {
+            margin-right: 4.8rem;
+            width:40%;
+        }
+        .title{
+            font-size: 20px;
+            margin-right: 6.5rem;
+            transform:translateY(15px);
+        }
+
+        .main-form{
+            margin-top: 2rem;
+            margin-right: 0rem;
+            border: 1px solid gray;
+            padding: 20px;
+        }
+        .label{
+            white-space: nowrap;
+        }
+        .field{
+            border-radius: 4px;
+            width: 50%;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        .button1{
+            background-color: lightgreen;
+            font-family: "Arad";
+            width: 23%;
+            border-radius: 4px;
+            margin-right: 8rem;
+            transform:translateY(33px);
+        }
+        .button2{
+            font-family: "Arad";
+            width: 23%;
+            background-color: rgb(226, 184, 167);
+            border-radius: 4px;
+            margin-right: 13rem;
+            transform:translateY(10px);
+        }
+        @media (min-width:768px)
+        {
+            body{
+                font-family: "Arad";
+                background-image: url(./photos/back-color.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                direction: rtl;
+            }
+            .logo
+            {
+                margin-right: 17.8rem;
+                width:20%;
+            }
+            .title{
+                font-size: 20px;
+                margin-right: 21rem;
+                transform:translateY(45px);
+            }
+            .main-form{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap:0.2rem;
+                margin: 3rem;
+                border: 1px solid gray;
+                padding-right: 140px;
+            }
+            .label{
+                white-space: nowrap;
+            }
+            .field{
+                border-radius: 4px;
+                width: 80%;
+                height: 20px;
+                margin-bottom: 1rem;
+                margin-right: -7rem;
+            }
+            .button1{
+                background-color: lightgreen;
+                font-family: "Arad";
+                width: 16%;
+                height: 30px;
+                border-radius: 4px;
+                position: absolute;
+                top: 29rem;
+                left: 4rem;            }
+            .button2{
+                font-family: "Arad";
+                width: 16%;
+                height: 30px;
+                background-color: rgb(226, 184, 167);
+                border-radius: 4px;
+                position: absolute;
+                top: 33rem;
+                left: 4rem;
+            }
+        }
+        @media (min-width:1024px)
+        {
+            body{
+                font-family: "Arad";
+                background-image: url(./photos/back-color.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                min-height: 800px;
+                direction: rtl;
+                /*margin: 3rem;*/
+            }
+            .logo
+            {
+                margin-right: 25rem;
+                width:15%;
+            }
+            .title{
+                font-size: 30px;
+                margin-right: 28rem;
+                transform:translateY(45px);
+            }
+            .main-form{
+                margin: 3rem;
+                border: 1px solid gray;
+                padding-right: 140px;
+            }
+            .label{
+                white-space: nowrap;
+                font-size: 20px;
+            }
+            .field{
+                border-radius: 4px;
+                width: 80%;
+                height: 30px;
+                margin-bottom: 1rem;
+                margin-right: -7rem;
+            }
+            .button1{
+                background-color: lightgreen;
+                font-family: "Arad";
+                font-size: 20px;
+                width: 16%;
+                border-radius: 4px;
+                position: absolute;
+                top: 33rem;
+                left: 4rem;
+            }
+            .button2{
+                font-family: "Arad";
+                font-size: 20px;
+                width: 16%;
+                background-color: rgb(226, 184, 167);
+                border-radius: 4px;
+                position: absolute;
+                top: 37rem;
+                left: 4rem;
+            }
+        }

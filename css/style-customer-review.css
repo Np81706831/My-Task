@@ -1,0 +1,214 @@
+ @font-face
+        {
+            font-family: "Arad";
+            src: url(./font/AradVF.woff2)format("woff2");
+        }
+        body{
+            font-family: "Arad";
+            direction: rtl;
+            align-items: center;
+        }
+        .header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo{
+            width: 20%;
+            
+        }
+        .main-title{
+            font-size: 20px;
+            white-space: nowrap;
+        }
+        /*.title{
+            font-size: medium;
+            white-space: nowrap;
+            text-align: center;
+            /*margin: 2rem;
+        }*/
+        .section1{
+            border:1px solid rgb(248, 155, 240) ;
+            border-radius: 7px;
+        }
+        .review{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(244, 234, 235);
+            border-radius: 10px;
+        }
+        .profile{
+            width: 10%;
+            height: 100%;
+            margin-right: 0;
+            display: inline;
+        }
+        .username{
+            display: inline;
+            font-size: small;
+            position: relative;
+            top: -0.5rem;
+            left: 0rem;
+        }
+        .text{
+            padding: 1rem;
+        }
+        .link{
+            text-decoration: none;
+        }
+        .more{
+            position: absolute;
+            margin-top:0;
+            left: 1rem;
+            font-size: small;
+            margin-bottom: 10rem;
+        }
+        .text-area{
+            font-family: "Arad";
+            border-radius: 10px;
+            width: 50%;
+            height: 30%;
+            padding: 1rem;
+        }
+        /*............................. this is for tablet mode.........................*/
+        @media (min-width:768px) {
+            body{
+            font-family: "Arad";
+            direction: rtl;
+            align-items: center;
+        }
+        .header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo{
+            width: 10%;
+            margin-bottom: 3rem;
+            
+        }
+        .main-title{
+            font-size: 20px;
+            white-space: nowrap;
+            margin-right: 15rem;
+        }
+        /*.title{
+            font-size: medium;
+            white-space: nowrap;
+            text-align: center;
+        }*/
+        .section1{
+            border:1px solid rgb(248, 155, 240) ;
+            border-radius: 7px;
+        }
+        .review{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(244, 234, 235);
+            border-radius: 10px;
+        }
+        .profile{
+            width: 7%;
+            height: 100%;
+            margin-right: 0;
+            display: inline;
+        }
+        .username{
+            display: inline;
+            font-size: small;
+            position: relative;
+            top: -1rem;
+            left: 0rem;
+        }
+        .text{
+            padding: 1rem;
+        }
+        .link{
+            text-decoration: none;
+        }
+        .more{
+            position: absolute;
+            margin-top:0;
+            left: 1rem;
+            font-size: small;
+            margin-bottom: 10rem;
+        }
+        .text-area{
+            font-family: "Arad";
+            border-radius: 10px;
+            width: 50%;
+            height: 30%;
+            padding: 1rem;
+        }
+        }
+
+        /*............................. this is for desktop mode.........................*/
+        @media (min-width:1024px) {
+            body{
+            font-family: "Arad";
+            direction: rtl;
+            align-items: center;
+        }
+        .header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo{
+            width: 12%;
+            
+        }
+        .main-title{
+            font-size: 30px;
+            white-space: nowrap;
+            margin-right: 19rem;
+        }
+        .section1{
+            border:1px solid rgb(248, 155, 240) ;
+            border-radius: 7px;
+        }
+        /*.title{
+            font-size: medium;
+            white-space: nowrap;
+            text-align: center;
+        }*/
+        .review{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(244, 234, 235);
+            border-radius: 10px;
+        }
+        .profile{
+            width: 5%;
+            height: 100%;
+            margin-right: 0;
+            display: inline;
+        }
+        .username{
+            display: inline;
+            font-size: large;
+            position: relative;
+            top: -1rem;
+            left: 0rem;
+        }
+        .text{
+            padding: 1rem;
+        }
+        .link{
+            text-decoration: none;
+        }
+        .more{
+            position: absolute;
+            margin-top:0;
+            left: 1rem;
+            font-size: small;
+            margin-bottom: 10rem;
+        }
+        .text-area{
+            font-family: "Arad";
+            border-radius: 10px;
+            width: 50%;
+            height: 30%;
+            padding: 1rem;
+        }
+        }

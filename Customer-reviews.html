@@ -1,206 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>نظرات مشتری</title>
-    <style>
-        @font-face
-        {
-            font-family: "Arad";
-            src: url(./font/AradVF.woff2)format("woff2");
-        }
-        body{
-            font-family: "Arad";
-            direction: rtl;
-            align-items: center;
-        }
-        .header{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .logo{
-            width: 20%;
-            
-        }
-        .title{
-            font-size: medium;
-            white-space: nowrap;
-            text-align: center;
-            /*margin: 2rem;*/
-        }
-        .review{
-            width: 100%;
-            height: 100%;
-            background-color: rgb(246, 213, 218);
-            border-radius: 10px;
-        }
-        .profile{
-            width: 10%;
-            height: 100%;
-            margin-right: 0;
-            display: inline;
-        }
-        .username{
-            display: inline;
-            font-size: small;
-            position: relative;
-            top: -0.5rem;
-            left: 0rem;
-        }
-        .text{
-            padding: 1rem;
-        }
-        .link{
-            text-decoration: none;
-        }
-        .more{
-            position: absolute;
-            margin-top:0;
-            left: 1rem;
-            font-size: small;
-            margin-bottom: 10rem;
-        }
-        .text-area{
-            font-family: "Arad";
-            border-radius: 10px;
-            width: 50%;
-            height: 30%;
-            padding: 1rem;
-        }
-        /*............................. this is for tablet mode.........................*/
-        @media (min-width:768px) {
-            body{
-            font-family: "Arad";
-            direction: rtl;
-            align-items: center;
-        }
-        .header{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .logo{
-            width: 20%;
-            
-        }
-        .title{
-            font-size: medium;
-            white-space: nowrap;
-            text-align: center;
-        }
-        .review{
-            width: 100%;
-            height: 100%;
-            background-color: rgb(246, 213, 218);
-            border-radius: 10px;
-        }
-        .profile{
-            width: 10%;
-            height: 100%;
-            margin-right: 0;
-            display: inline;
-        }
-        .username{
-            display: inline;
-            font-size: small;
-            position: relative;
-            top: -2rem;
-            left: 0rem;
-        }
-        .text{
-            padding: 1rem;
-        }
-        .link{
-            text-decoration: none;
-        }
-        .more{
-            position: absolute;
-            margin-top:0;
-            left: 1rem;
-            font-size: small;
-            margin-bottom: 10rem;
-        }
-        .text-area{
-            font-family: "Arad";
-            border-radius: 10px;
-            width: 50%;
-            height: 30%;
-            padding: 1rem;
-        }
-        }
-
-        /*............................. this is for desktop mode.........................*/
-        @media (min-width:1518px) {
-            body{
-            font-family: "Arad";
-            direction: rtl;
-            align-items: center;
-        }
-        .header{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .logo{
-            width: 9%;
-            
-        }
-        .title{
-            font-size: medium;
-            white-space: nowrap;
-            text-align: center;
-        }
-        .review{
-            width: 100%;
-            height: 100%;
-            background-color: rgb(246, 213, 218);
-            border-radius: 10px;
-        }
-        .profile{
-            width: 5%;
-            height: 100%;
-            margin-right: 0;
-            display: inline;
-        }
-        .username{
-            display: inline;
-            font-size: small;
-            position: relative;
-            top: -2rem;
-            left: 0rem;
-        }
-        .text{
-            padding: 1rem;
-        }
-        .link{
-            text-decoration: none;
-        }
-        .more{
-            position: absolute;
-            margin-top:0;
-            left: 1rem;
-            font-size: small;
-            margin-bottom: 10rem;
-        }
-        .text-area{
-            font-family: "Arad";
-            border-radius: 10px;
-            width: 50%;
-            height: 30%;
-            padding: 1rem;
-        }
-        }
-    </style>
+    <link href="./css/style-customer-review.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
     <div class="header"><img src="./icons/new-logo.png"class="logo" alt="لوگوی سایت"/></div>
-    <h1 class="title">«داستان ما، از نگاه شما» ✨📚</h1>
+    <h1 class="main-title">«داستان ما، از نگاه شما» ✨📚</h1>
     <section class="section1">
         <article class="review">
             <img src="./icons/profile-image.png" class="profile"/>
-            <h1 class="username">باران عباسی</h1>
+            <h2 class="username">باران عباسی</h2>
             <p class="text">بسیار تجربه ی خرید خوبی داشتم</p>
         </article>
     </section><hr/>
@@ -208,7 +20,7 @@
     <section class="section1">
         <article class="review">
             <img src="./icons/profile-image.png" class="profile"/>
-            <h1 class="username">نازنین حسینی </h1>
+            <h2 class="username">نازنین حسینی </h2>
             <p class="text"> خیلی زود به دستم رسید ، خیلی ممنون از سایت و پرسنل خوبتون</p>
         </article>
     </section><hr/>
@@ -216,7 +28,7 @@
     <section class="section1">
         <article class="review">
             <img src="./icons/profile-image.png" class="profile"/>
-            <h1 class="username">ستاره اردکانی</h1>
+            <h2 class="username">ستاره اردکانی</h2>
             <p class="text">کتابهایی که سفارش دادم ، بی نقص و خیلی زود به دستم رسیدن ، ممنونم ازتون</p>
         </article>
     </section><hr/>
@@ -224,7 +36,7 @@
     <section class="section1">
         <article class="review">
             <img src="./icons/profile-image.png" class="profile"/>
-            <h1 class="username">مهدی ترکی</h1>
+            <h2 class="username">مهدی ترکی</h2>
             <p class="text">من عضو اشتراک  VIP هستم ، هرماه کد تخفیف دارم و کتاب میخرم</p>
         </article>
     </section><hr/>
@@ -232,14 +44,14 @@
     <section class="section1">
         <article class="review">
             <img src="./icons/profile-image.png" class="profile"/>
-            <h1 class="username">محیا سلطانی</h1>
+            <h2 class="username">محیا سلطانی</h2>
             <p class="text"> این کتاب فروشی لوکیشن بسیار خوبی داره و تجربه ی جالبتریه ، و رفتار پرسنل عالی بود </p>
         </article>
     </section><hr/>
     <section class="section1">
         <article class="review">
             <img src="./icons/profile-image.png" class="profile"/>
-            <h1 class="username">مهسا یاقوتی</h1>
+            <h2 class="username">مهسا یاقوتی</h2>
             <p class="text"> داخل پیج اینستاگرامشون محصولات بیشتری موجوده ، به اونجاهم حتما سر بزنید</p>
         </article>
     </section>

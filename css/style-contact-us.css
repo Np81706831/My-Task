@@ -1,0 +1,78 @@
+@font-face{
+        font-family: "Arad";
+        src: url(./font/AradVF.woff2)format("woff2");}
+        body{
+            font-family: "Arad";
+            direction: rtl;
+            margin: 0.5rem;
+        }
+        .title{
+            font-size: 20px;
+        }
+        .field{
+            font-family: "Arad";
+            border-radius: 4px;
+        }
+        .massage{
+            font-family: "Arad";
+            width: 70%;
+        }
+        .button{
+            font-family: "Arad";
+            border-radius: 5px;
+            margin-top: 2rem;
+            float: left;
+            margin-right: 5px;
+        }
+        /* ...................... this is for tablet mode .......................*/
+        @media (min-width:768px) {
+            body{
+            font-family: "Arad";
+            direction: rtl;
+            margin: 0.5rem;
+        }
+        .title{
+            font-size: 20px;
+        }
+        .field{
+            font-family: "Arad";
+            border-radius: 4px;
+        }
+        .massage{
+            font-family: "Arad";
+            width: 70%;
+        }
+        .button{
+            font-family: "Arad";
+            border-radius: 5px;
+            margin-top: 2rem;
+            float: left;
+            margin-right: 5px;
+        }   
+        }
+        /*...................this is for desktop mode..............................*/
+        @media (min-width:1024px) {
+            body{
+            font-family: "Arad";
+            direction: rtl;
+            margin: 2rem;
+        }
+        .title{
+            font-size: 20px;
+        }
+        .field{
+            font-family: "Arad";
+            border-radius: 4px;
+        }
+        .massage{
+            font-family: "Arad";
+            width: 70%;
+        }
+        .button{
+            font-family: "Arad";
+            border-radius: 5px;
+            margin-top: 2rem;
+            float: left;
+            margin-right: 5px;
+        }
+        }

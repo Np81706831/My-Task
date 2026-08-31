@@ -1,44 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login-Form</title>
-    <style>
-        @font-face {
-        font-family: "Arad";
-        src: url(./font/AradVF.woff2)format("woff2");}
-        body{
-            direction: rtl;
-            font-family: "Arad";
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-image: url(./Photos/back-color.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            
-        }
-        .fieldset{
-            border-radius: 5px;
-            margin-bottom: 10px;
-        }
-        .input{
-        border-radius: 10px;
-   
-        }
-    </style>
+    <link href="./css/style-form.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-    <form action="#" method="post">
+    <form action="#" method="post"  name="form">
+        <h1>تکمیل اطلاعات کاربری : </h1>
         <fieldset class="fieldset">
             <legend>اطلاعات کاربری</legend>
-            <label>نام : </label>
-            <input type="text" class="input" autofocus required />
-            <label>نام خانوادگی : </label>
-            <input type="text" class="input" required />
-            <label>سن : </label>
-            <input type="number" required class="input"/>
+            <label for="name">نام : </label>
+            <input type="text" class="input" id="name"  autofocus required />
+            <label for="family">نام خانوادگی : </label>
+            <input type="text" class="input" id="family"  required />
+            <label for="age">سن : </label>
+            <input type="number" required class="input" id="age"/>
         </fieldset>
          <fieldset class="fieldset">
             <legend>اطلاعات تحصیلی</legend>
@@ -50,32 +28,32 @@
                 <option>دکترا</option>
                 <option>سایر...</option>
             </select>
-            <label>نام دانشگاه: </label>
-            <input type="text"  class="input" />
+            <label for="university">نام دانشگاه: </label>
+            <input type="text" class="input" id="university" />
         </fieldset>
         <fieldset class="fieldset">
             <legend>جنسیت :</legend>
-            <label>زن</label>
-            <input type="radio" name="gender"  class="input" />
-            <label>مرد</label>
-            <input type="radio" name="gender"  class="input" />
+            <label for="woman">زن</label>
+            <input type="radio" name="gender"  class="input" id="woman"/>
+            <label for="man">مرد</label>
+            <input type="radio" name="gender" class="input" id="man"/>
         </fieldset>
         <fieldset>
             <legend>مهارت های شما</legend>
-            <label>HTML</label>
-            <input type="checkbox"  class="input" />
-            <label>CSS</label>
-            <input type="checkbox"  class="input" />
-            <label>Java-Script</label>
-            <input type="checkbox"  class="input" />
-            <label>React</label>
-            <input type="checkbox"  class="input" />
-            <label>PHP</label>
-            <input type="checkbox"  class="input" />
-            <label>SQL</label>
-            <input type="checkbox"  class="input" />
-            <label>Laravel</label>
-            <input type="checkbox"  class="input" /><br>
+            <label for="html">HTML</label>
+            <input type="checkbox"  class="input" id="html"/>
+            <label for="css">CSS</label>
+            <input type="checkbox"  class="input" id="css" />
+            <label for="java">Java-Script</label>
+            <input type="checkbox"  class="input" id="java"/>
+            <label for="react">React</label>
+            <input type="checkbox"  class="input" id="react" />
+            <label for="php">PHP</label>
+            <input type="checkbox"  class="input" id="php"/>
+            <label for="sql">SQL</label>
+            <input type="checkbox"  class="input" id="sql" />
+            <label for="laravel">Laravel</label>
+            <input type="checkbox"  class="input" id="laravel"/><br>
             <h4>توضیحات :</h4>
             <textarea style="width: 30%;"></textarea>
         </fieldset>
@@ -83,12 +61,12 @@
             <legend>راه های ارتباطی با شما</legend>
             <label for="tel">Phone number :</label>
             <input type="tel" id="tel" class="input" required/> 
-            <label>Email :</label>
-            <input type="email" class="input" required />
-            <label>Linkdin :</label>
-            <input type="url" class="input" />
-            <label>GitHub :</label>
-            <input type="url" class="input" />-
+            <label for="email">Email :</label>
+            <input type="email" class="input" id="email" required />
+            <label for="linkdin">Linkdin :</label>
+            <input type="url" class="input" id="linkdin"/>
+            <label for="github">GitHub :</label>
+            <input type="url" class="input" id="github"/>-
         </fieldset><br>
         <input type="submit" class="input"/>
         <input type="reset" class="input"/>
