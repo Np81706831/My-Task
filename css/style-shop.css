@@ -45,12 +45,6 @@ body
     height: 60px;
     border-radius: var(--radius-small);
 }
-/*.search-box:hover
-{
-    width: 125vw;
-    transition-duration: 1s;
-    transition-timing-function: linear;
-}*/
 .profile
 {
     width: 30%;
