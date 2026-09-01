@@ -1,0 +1,64 @@
+@font-face {
+        font-family: "Arad";
+        src: url(../font/AradVF.woff2)format("woff2");
+        }
+        :root{
+            --main-font:"Arad";
+            --main-margin:25rem;
+        }
+        body{
+            font-family: var(--main-font);
+            background-image: url(../photos/light-back1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 450px;
+            direction: rtl;
+            margin: 2rem;
+            margin-top: 12rem;
+            
+        }
+        .link{
+            text-decoration: none;
+            white-space: nowrap;
+            transform: translateY(190px);
+        }
+        @media (min-width:768px) {
+            body{
+            font-family: var(--main-font);
+            background-image: url(../photos/light-back1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 450px;
+            direction: rtl;
+            margin: 2rem;
+            margin-top: 12rem;
+            
+        }
+        .link{
+            text-decoration: none;
+            white-space: nowrap;
+            text-align: center;
+            transform: translateY(190px);
+            margin-right: 15rem;
+        }
+        }
+        @media (min-width:1024px) {
+            body{
+            font-family: var(--main-font);
+            background-image: url(../photos/light-back1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 400px;
+            direction: rtl;
+            margin: 2rem;
+            margin-top: 18rem;
+            
+        }
+        .link{
+            font-size: 30px;
+            text-decoration: none;
+            white-space: nowrap;
+            text-align: center;
+            margin-right: 18rem;
+        }
+        }

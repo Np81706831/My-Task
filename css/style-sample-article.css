@@ -1,12 +1,12 @@
     @font-face {
     font-family: "Arad";
-    src: url(./font/AradVF.woff2)format("woff2");
+    src: url(../font/AradVF.woff2)format("woff2");
         }
     body
     {
         direction: rtl;
         font-family: "Arad";
-        background-image: url(./photos/back-color.jpg);
+        background-image: url(../photos/back-color.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         margin: 2rem;

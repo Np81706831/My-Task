@@ -1,7 +1,7 @@
  @font-face
         {
             font-family: "Arad";
-            src: url(./font/AradVF.woff2)format("woff2");
+            src: url(../font/AradVF.woff2)format("woff2");
         }
         body{
             font-family: "Arad";
