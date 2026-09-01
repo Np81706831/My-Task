@@ -1,13 +1,13 @@
+@font-face
+{
+    font-family: "Arad";
+    src: url(./font/AradVF.woff2)format("woff2");
+}
 :root{
     --main-font:"Arad";
     --radius-small:8px;
     --radius-medium:13px;
     --radius-large:60%;
-}
-@font-face
-{
-    font-family: "Arad";
-    src: url(./font/AradVF.woff2)format("woff2");
 }
 *{
     box-sizing: border-box;
