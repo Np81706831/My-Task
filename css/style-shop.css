@@ -249,8 +249,8 @@ body
 }
 .main-cta
 {
-    width: 80%;
-    height: 500px;
+    width: 86%;
+    height: 680px;
     border: 1px solid gray;
     border-radius: var(--radius-small);
     padding: 2rem;
@@ -259,8 +259,8 @@ body
 }
 .main-cta2
 {
-    width: 80%;
-    height: 500px;
+    width: 86%;
+    height: 680px;
     border: 1px solid gray;
     border-radius: 7px;
     padding: 2rem;
@@ -270,16 +270,16 @@ body
 .buy-Subscription1{
     text-decoration: none;
     position: relative;
-    top: 7rem;
-    right: 0.2rem;
+    top: 3.1rem;
+    right: -0.5rem;
     color:green;
     white-space: nowrap;
 }
 .buy-Subscription2{
     text-decoration: none;
     position: relative;
-    top: 7rem;
-    right: 0.2rem;
+    top: 4rem;
+    right: -1rem;
     color:green;
     white-space: nowrap;
 }
@@ -346,7 +346,7 @@ body
     @font-face
     {
         font-family: "Arad";
-        src: url(./font/AradVF.woff2)format("woff2");
+        src: url(../font/AradVF.woff2)format("woff2");
     }
     body
     {
@@ -356,7 +356,6 @@ body
         margin: 3rem;
     }
     .header{
-        /*background-color: #D8C0B0;*/
         width: 100%;
     }
     .logo
@@ -602,7 +601,7 @@ body
     .main-cta
     {
         width: 80%;
-        height: 500px;
+        height: 570px;
         border: 1px solid gray;
         border-radius: var(--radius-small);
         padding: 2rem;
@@ -612,7 +611,7 @@ body
     .main-cta2
     {
         width: 80%;
-        height: 500px;
+        height: 570px;
         border: 1px solid gray;
         border-radius: var(--radius-small);
         padding: 2rem;
@@ -702,7 +701,7 @@ body
     @font-face
     {
         font-family: "Arad";
-        src: url(./font/AradVF.woff2)format("woff2");
+        src: url(../font/AradVF.woff2)format("woff2");
     }
     body
     {
@@ -959,7 +958,7 @@ body
     .main-cta
     {
         width: 30%;
-        height: 500px;
+        height: 590px;
         border: 1px solid gray;
         border-radius: var(--radius-small);
         padding: 2rem;
@@ -969,7 +968,7 @@ body
     .main-cta2
     {
         width: 30%;
-        height: 500px;
+        height: 590px;
         border: 1px solid gray;
         border-radius: var(--radius-small);
         padding: 2rem;
